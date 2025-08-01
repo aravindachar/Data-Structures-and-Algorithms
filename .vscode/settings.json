@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "Data-Structures-and-Algorithms/PATTERNS",
         "Data-Structures-and-Algorithms/BasicRecursion/Basic",
+        "Data-Structures-and-Algorithms/02.LinearSearch",
         "Data-Structures-and-Algorithms/01.Arrays",
-        "Data-Structures-and-Algorithms/02.LinearSearch"
+        "Data-Structures-and-Algorithms"
     ]
 }
