@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "OOPs/Inheritence",
         "Data-Structures-and-Algorithms/02.LinearSearch",
         "Data-Structures-and-Algorithms/01.Arrays",
         "Data-Structures-and-Algorithms",
-        "OOPs/Inheritence"
+        "OOPs/Access"
     ]
 }
