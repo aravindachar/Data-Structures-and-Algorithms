@@ -16,3 +16,4 @@ public class StackMain {
         stack.push(34);
     }
 }
+    
