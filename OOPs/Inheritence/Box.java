@@ -30,7 +30,9 @@ public class Box {
         this.w = w;
         this.h = h;
     }
-
+    Box(double l ){
+        this.l = l ;
+    }
     /**
      * Copy Constructor:
      * Creates a new Box object that is a copy of an existing Box object.
@@ -46,5 +48,8 @@ public class Box {
      */
     public void information() {
         System.out.println("Running from the Box class.");
+    }
+    public static void main(String[] args) {
+
     }
 }

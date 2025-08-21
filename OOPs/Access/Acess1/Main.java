@@ -1,9 +1,7 @@
-package Acess1;
+// package Acess1;
 
-public class Main extends A {
+// public class Main extends A {
     
     
-    main(){
-
-    }
-}
+//     }
+// }
