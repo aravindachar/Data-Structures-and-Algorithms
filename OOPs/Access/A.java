@@ -17,5 +17,4 @@ public class A {
         this.arr = new int[num];    
     }
     
-
 }

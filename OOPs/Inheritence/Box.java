@@ -49,7 +49,5 @@ public class Box {
     public void information() {
         System.out.println("Running from the Box class.");
     }
-    public static void main(String[] args) {
-
-    }
+   
 }

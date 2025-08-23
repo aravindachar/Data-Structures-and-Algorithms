@@ -6,7 +6,6 @@
 public class BoxWeight extends Box {
     // This is a new instance variable specific to BoxWeight.
     double weight;
-
     /**
      * Default Constructor:
      * Initializes the weight to a default value.
@@ -25,6 +24,7 @@ public class BoxWeight extends Box {
      * @param h height, to be passed to the parent
      * @param weight the new property for this class
      */
+    
     BoxWeight(double l, double w, double h, double weight) {
         // The 'super(l, w, h)' call invokes the parent class (Box) constructor.
         // It MUST be the first line in the child constructor.
@@ -33,5 +33,12 @@ public class BoxWeight extends Box {
         
         // Now, we initialize the property that is unique to this child class.
         this.weight = weight;
+        
+
     }
+    public void information() {
+        System.out.println("Running from the Box class.");
+        System.out.println("its overdiden");
+    }
+
 }
