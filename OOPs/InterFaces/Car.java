@@ -20,7 +20,5 @@ public class Car implements Engine , Break {
     public void Break(){
         System.out.println("the break is here");
     }
-    public void Break(){
-        System.out.println("the break is here");
-    }
+  
 }
