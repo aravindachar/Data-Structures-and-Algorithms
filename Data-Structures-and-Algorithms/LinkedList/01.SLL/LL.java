@@ -45,7 +45,7 @@ public class LL {
         for (int i = 1; i < index; i++) {
             temp = temp.next;
         }
-
+        
         Node node = new Node(val, temp.next);
         temp.next = node;
 

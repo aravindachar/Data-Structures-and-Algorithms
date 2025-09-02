@@ -1,7 +1,7 @@
 /**
- * Main.java - The entry point of our program.
- * We create objects of our classes here to see inheritance in action.
+ * Main
  */
+
 public class Main{
     public static void main(String[] args) {
         

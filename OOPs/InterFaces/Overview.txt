@@ -1,0 +1,67 @@
+classDiagram
+    direction LR
+
+    class Main {
+        +main(String[] args)
+    }
+
+    class NiceCar {
+        -Engine engine
+        -Media player
+        +NiceCar()
+        +start()
+        +startMusic()
+        +upgradeEngine()
+    }
+
+    class CDplayer {
+        +start()
+        +stop()
+    }
+
+    class PowerEnginen {
+        +start()
+        +stop()
+        +acc()
+    }
+
+    class ElectricEngine {
+        +start()
+        +stop()
+        +acc()
+    }
+
+    class Car {
+        +start()
+        +stop()
+        +acc()
+        +Break()
+    }
+
+    class Engine {
+        <<interface>>
+        +start()
+        +stop()
+        +acc()
+    }
+
+    class Media {
+        <<interface>>
+        +start()
+        +stop()
+    }
+
+    class Break {
+        <<interface>>
+        +Break()
+        +start()
+    }
+
+    Main --> NiceCar : creates
+    NiceCar o-- Engine : has a
+    NiceCar o-- Media : has a
+    CDplayer --|> Media : implements
+    PowerEnginen --|> Engine : implements
+    ElectricEngine --|> Engine : implements
+    Car --|> Engine : implements
+    Car --|> Break : implements
