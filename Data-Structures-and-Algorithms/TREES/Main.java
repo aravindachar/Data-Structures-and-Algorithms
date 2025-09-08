@@ -15,7 +15,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Create an instance (an object) of our BinaryTrees class.
-        BT tree = new BT();
+        BinaryTrees tree = new BinaryTrees();
 
         // Call the public method to build the tree using the scanner.
         tree.populate(scanner);
