@@ -1,11 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "Strings&Arrays",
         "OOPs/Inheritence",
         "OOPs/Access",
         "Data-Structures-and-Algorithms/02.LinearSearch",
         "Data-Structures-and-Algorithms/01.Arrays",
         "Data-Structures-and-Algorithms",
-        "Strings&Arrays"
+        "BasicRecursion/Basic",
+        "BasicRecursion/Questions"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
