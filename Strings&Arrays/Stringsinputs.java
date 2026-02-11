@@ -4,14 +4,19 @@ public class Stringsinputs {
 
     
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String number = "1 2 4 4";
-        String[] numberr = number.trim().split("\\s+");
-        int[] array = new int[n];
-        for(int i = 0 ; i < n ; i++){
-            array[i] = Integer.parseInt(numberr[i]);
+        int[] nums = {0,1,2,3,4,5};
+        int s = 0 ; int e = nums.length-1 ;
+        while(s < e){
+            int temp = nums[s];
+            nums[s] = nums[e];
+            nums[e] = temp ;
+            s++;
+            e--;
+
         }
-        System.out.println(array[1]);
+        for(int i = 0 ; i < nums.length ; i++){
+            System.out.println(nums[i]);
+        }
+
     }
 }
